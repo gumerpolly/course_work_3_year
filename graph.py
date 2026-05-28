@@ -1,7 +1,7 @@
 from pyvis.network import Network
 import pandas as pd
 
-df = pd.read_excel('/Users/polinagumerova/Desktop/Course_work_3_year/Курсовая 2025-2026.xlsx',
+df = pd.read_excel('course_work_3_year/Курсовая 2025-2026.xlsx',
                    sheet_name='Бригадир',
                    skiprows=5)
 
@@ -106,4 +106,4 @@ for pair, count in sorted(complex_pairs.items(), key=lambda x: x[1], reverse=Tru
                  color=edge_color,
                  title=f"Реплик: {count}")
 
-net.show('second_graph.html', notebook=False)
+net.show('graph.html', notebook=False)
