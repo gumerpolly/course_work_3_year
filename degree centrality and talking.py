@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import Circle
 
-df = pd.read_excel('/Users/polinagumerova/Desktop/Course_work_3_year/Курсовая 2025-2026.xlsx',
+df = pd.read_excel('course_work_3_year/Курсовая 2025-2026.xlsx',
                    sheet_name='Бригадир',
                    skiprows=5)
 
